@@ -5,7 +5,7 @@ import requests
 app = Flask(__name__)
 
 API_URL = "https://api-inference.huggingface.co/models/microsoft/DialoGPT-medium"
-HEADERS = {"Authorization": "Bearer YOUR_HUGGINGFACE_API_KEY"}  # Replace with your API key
+HEADERS = {"Authorization": "Bearer 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 "}  # Replace with your API key
 
 # Store chat history for each user session
 chat_history = []
